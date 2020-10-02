@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li>Productos</li>
+            <li>Carrito de compras</li>
+            <li>LOGIN</li>
+        </ul>
+    </nav>
+    <header>
+        <h1>Vista de administrador</h1>
+    </header>
+    <main>
+        <!-- Sección donde el administrador puede ver las ventas realizadas -->
+        <section class="sales">
+            <table>Ventas realizadas</table>
+            <tr>
+                <th>ChartID</th>
+                <th>UserID</th>
+                <th>ProdID</th>
+            </tr>
+            <tr>
+                <td>Carrito1</td>
+                <td>Usuario1</td>
+                <td>Producto1</td>
+            </tr>
+            <tr>
+                <td>Carrito2</td>
+                <td>Usuario2</td>
+                <td>Producto2</td>
+            </tr>
+            <tr>
+                <td>Carrito3</td>
+                <td>Usuario3</td>
+                <td>Producto3</td>
+            </tr>
+        </section>
+<!-- Sección donde el administrador puede añadir productos -->
+        <section class="addProductos"></section>
+        <form>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname" value="Doe"><br><br>
+            <input type="submit" value="Submit">
+          </form> 
+    </main>
+</body>
+
+</html>
